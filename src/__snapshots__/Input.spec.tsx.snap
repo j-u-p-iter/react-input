@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders properly by default 1`] = `
+<label>
+  <input
+    data-testid="input"
+    name="some-name"
+    type="text"
+    value=""
+  />
+</label>
+`;
+
+exports[`Input renders properly with all props 1`] = `
+<label
+  class="some-container-class-name"
+>
+  <span>
+    Prefix element
+  </span>
+  <input
+    data-testid="input"
+    name="some-name"
+    type="password"
+    value="some default value"
+  />
+  <em>
+    Suffix element
+  </em>
+</label>
+`;
